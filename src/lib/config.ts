@@ -1,9 +1,9 @@
 export const config = {
   site: {
-    title: "Nextjs Blog Template",
-    name: "Nextjs Blog Template",
-    description: "Nextjs Blog Template",
-    keywords: ["Nextjs Blog Template", "AI", "Full Stack Developer"],
+    title: "jayvee's blog",
+    name: "jayvee's blog",
+    description: "jayvee's blog",
+    keywords: ["Go", "Golang", "AI", "Full Stack Developer"],
     url: "https://xxx.com",
     baseUrl: "https://xxx.com",
     image: "https://xxx.com/og-image.png",
@@ -15,7 +15,7 @@ export const config = {
     },
     manifest: "/site.webmanifest",
     rss: {
-      title: "Nextjs Blog Template",
+      title: "jayvee's blog",
       description: "Thoughts on Full-stack development, AI",
       feedLinks: {
         rss2: "/rss.xml",
@@ -25,13 +25,13 @@ export const config = {
     },
   },
   author: {
-    name: "Your Name",
-    email: "your.email@example.com",
-    bio: "这是一个 Nextjs 博客模板",
+    name: "jayvee",
+    email: "jvvcen@gmail.com",
+    bio: "Keep learning, Keep coding",
   },
   social: {
-    github: "https://github.com/xxx",
-    x: "https://x.com/xxx",
+    github: "https://github.com/jwcen",
+    x: "https://x.com/",
     xiaohongshu: "https://www.xiaohongshu.com/user/profile/xxx",
     wechat: "https://storage.xxx.com/images/wechat-official-account.png",
     buyMeACoffee: "https://www.buymeacoffee.com/xxx",
@@ -46,6 +46,10 @@ export const config = {
       { 
         title: "文章", 
         href: "/blog",
+      },
+      {
+        title: "关于我",
+        href: "/about",
       },
     ],
   },
